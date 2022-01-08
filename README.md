@@ -58,19 +58,15 @@
 
 ---
 
-## ビルド方法(Raspberry Pi4 ModelB / 8GB)
+## ROS環境構築(ROS1)
 ~~~
-$ git clone https://github.com/YukiShigematsu/Robosys1.git
-$ cd Robosys1
-$ make
-$ sudo insmod signal.ko
-$ sudo chmod 666 /dev/signal0
+ROSの環境構築は下記のスクリプトを使用し行いました。
+[ros_setup_scripts_Ubuntu20.04_desktop](https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu20.04_desktop)
 ~~~
 
-## ビルド・デバック方法（NUCLEO-F446RE）
-
-[Cube IDE](https://www.st.com/ja/development-tools/stm32cubeide.html)を使用して[Receive.c](https://github.com/YukiShigematsu/Robosys1/blob/main/STM_Receive.c)を書き込んでいます。
-
+## ワークスペース作成
+ワークスペースの作成は下記の資料を参考に作成しました。
+[robosys2020 ros.md](https://github.com/ryuichiueda/robosys2020/blob/master/md/ros.md)
 ---
 
 ## 実行方法
