@@ -41,6 +41,7 @@
 
 #### 使用するGPIOピンと用途
 - Raspberry Pi4 ModelB / 8GB
+
 |NO.|GPIOピン|用途|
 |---|---|---|
 |1|+５V|サーボモータとLBR-127hldへの5V供給|
