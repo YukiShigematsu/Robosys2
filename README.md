@@ -74,8 +74,8 @@ ROSの環境構築は下記のスクリプトを使用し行いました。
 1. #### 以下のコマンドを実行してパッケージをクローン
 
 ~~~
-cd ~/catkin_ws/src
-git clone 
+`$ cd ~/catkin_ws/src
+`$ git clone https://github.com/YukiShigematsu/Robosys2.git
 ~~~
 
 `$ echo f > /dev/signal0`
