@@ -72,7 +72,7 @@ ROSの環境構築は下記のスクリプトを使用し行いました。
 1. #### 以下のコマンドを実行してパッケージをクローン
 ~~~
 $ cd ~/catkin_ws/src
-$ git clone https://github.com/YukiShigematsu/Robosys2.git
+$ git clone https://github.com/YukiShigematsu/mono_mikuzi.git
 ~~~
 
 2. #### パケージのビルド
@@ -101,12 +101,12 @@ $ roscore
 ~~~
 ウィンドウ➁
 ~~~
-$ cd ~/catkin_ws/src/Robosys2/scripts
+$ cd ~/catkin_ws/src/mono_mikuzi/scripts
 $ rosrun Decision.py
 ~~~
 ウィンドウ➂
 ~~~
-$ cd ~/catkin_ws/src/Robosys2/scripts
+$ cd ~/catkin_ws/src/mono_mikuzi/scripts
 $ rosrun output.py
 ~~~
 
