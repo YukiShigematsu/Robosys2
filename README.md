@@ -111,7 +111,16 @@ $ cd ~/catkin_ws/src/Robosys2/scripts
 $ roscore Decision.py
 ~~~
 
-## 操作方法
+## 使用方法
+
+赤外線センサの前に物を置きます。
+サーボの角度がランダムに決定され、その位置に移動します。
+
+おみくじ画面
+- 画像をクリックするとYoutubeで動画が再生されます
+[![動画](https://user-images.githubusercontent.com/71487860/148692969-e8e75db1-0f9c-44f0-948a-96403373388a.png)](https://youtu.be/W_i7gDXiLfA)
+
+サーボモータが向いた方向がおみくじの結果となります。
 
 ---
 
