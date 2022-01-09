@@ -96,6 +96,7 @@ $ sudo apt-get install python-rpi.gpio
 
 ウィンドウ➀
 ~~~
+$ cd ~/catkin_ws
 $ roscore
 ~~~
 ウィンドウ➁
