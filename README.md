@@ -101,12 +101,12 @@ $ roscore
 ウィンドウ➁
 ~~~
 $ cd ~/catkin_ws/src/Robosys2/scripts
-$ roscore Decision.py
+$ rosrun Decision.py
 ~~~
 ウィンドウ➂
 ~~~
 $ cd ~/catkin_ws/src/Robosys2/scripts
-$ roscore Decision.py
+$ rosrun output.py
 ~~~
 
 ## 使用方法
