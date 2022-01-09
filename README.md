@@ -72,19 +72,18 @@ ROSの環境構築は下記のスクリプトを使用し行いました。
 
 ## パッケージ実行方法
 1. #### 以下のコマンドを実行してパッケージをクローン
+~~~
+$ cd ~/catkin_ws/src
+$ git clone https://github.com/YukiShigematsu/Robosys2.git
+~~~
+
+2. #### パケージのビルド
 
 ~~~
-`$ cd ~/catkin_ws/src
-`$ git clone https://github.com/YukiShigematsu/Robosys2.git
+$ cd ~/catkin_ws
+$ catkin_make
+$ source ~/.bashrc
 ~~~
-
-`$ echo f > /dev/signal0`
-- NUCLEO-F446REに接続されているLEDが流れるように点滅する信号を送信します
-
-2. #### cross
-
-`$ echo c > /dev/signal0`
-- NUCLEO-F446REに接続されているLEDが交わるように点滅する信号を送信します
 
 3. #### together
 
