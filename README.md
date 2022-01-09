@@ -70,7 +70,7 @@ ROSの環境構築は下記のスクリプトを使用し行いました。
 
 ---
 
-## パッケージ実行方法
+## パッケージ環境構築
 1. #### 以下のコマンドを実行してパッケージをクローン
 ~~~
 $ cd ~/catkin_ws/src
@@ -91,19 +91,29 @@ $ source ~/.bashrc
 $ sudo apt-get install python-rpi.gpio
 ~~~
 
-4. #### blinking
-
-`$ echo b > /dev/signal0`
-- NUCLEO-F446REに接続されているLEDが同時に点滅する信号を送信します
-
 ---
-## 終了方法
+## 実行方法
 
-```
-$ sudo rmmod signal
-$ make clean
-```
+1. ウィンド（端末）を３つ立ち上げる
+
+ウィンドウ➀
+~~~
+$ roscore
+~~~
+ウィンドウ➁
+~~~
+$ cd ~/catkin_ws/src/Robosys2/scripts
+$ roscore Decision.py
+~~~
+ウィンドウ➂
+~~~
+$ cd ~/catkin_ws/src/Robosys2/scripts
+$ roscore Decision.py
+~~~
+
+## 操作方法
+
 ---
 
 ## License
-[GNU General Public License v3.0](https://github.com/YukiShigematsu/Robosys1/blob/main/COPYING)
+[BSD 3-Clause "New" or "Revised" License](https://github.com/YukiShigematsu/Robosys2/blob/master/LICENSE)
