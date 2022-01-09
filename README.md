@@ -85,10 +85,11 @@ $ catkin_make
 $ source ~/.bashrc
 ~~~
 
-3. #### together
+3. #### rpi.gpioのインストール
 
-`$ echo t > /dev/signal0`
-- NUCLEO-F446REに接続されているLEDが3つずつ点滅する信号を送信します
+~~~
+$ sudo apt-get install python-rpi.gpio
+~~~
 
 4. #### blinking
 
