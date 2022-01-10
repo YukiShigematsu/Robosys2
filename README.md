@@ -55,10 +55,10 @@
 ---
 
 ## バージョン情報
-・　ubuntu : 20.04
-・　ROS : noetic 1.15.13
-・　python : 2.7.18
-・　rpi.gpio : 0.6.5-1ubuntu3
+- ubuntu : 20.04
+- ROS : noetic 1.15.13
+- python : 2.7.18
+- rpi.gpio : 0.6.5-1ubuntu3
 
 
 
