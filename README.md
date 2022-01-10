@@ -69,24 +69,26 @@ ROSの環境構築は下記のスクリプトを使用し行いました。
 [robosys2020 ros.md](https://github.com/ryuichiueda/robosys2020/blob/master/md/ros.md)
 
 ## パッケージ環境構築
-1. #### 以下のコマンドを実行してパッケージをクローン
+
+1. #### rpi.gpioのインストール
+
+~~~
+$ cd
+$ sudo apt-get install python-rpi.gpio
+~~~
+
+2. #### パッケージのクローン
 ~~~
 $ cd ~/catkin_ws/src
 $ git clone https://github.com/YukiShigematsu/mono_mikuzi.git
 ~~~
 
-2. #### パケージのビルド
+3. #### パケージのビルド
 
 ~~~
 $ cd ~/catkin_ws
 $ catkin_make
 $ source ~/.bashrc
-~~~
-
-3. #### rpi.gpioのインストール
-
-~~~
-$ sudo apt-get install python-rpi.gpio
 ~~~
 
 ---
