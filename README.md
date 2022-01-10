@@ -104,12 +104,12 @@ $ roscore
 ウィンドウ➁
 ~~~
 $ cd ~/catkin_ws/src/mono_mikuzi/scripts
-$ rosrun Decision.py
+$ rosrun mono_mikuzi Decision.py
 ~~~
 ウィンドウ➂
 ~~~
 $ cd ~/catkin_ws/src/mono_mikuzi/scripts
-$ rosrun output.py
+$ rosrun mono_mikuzi output.py
 ~~~
 
 ## 使用方法
